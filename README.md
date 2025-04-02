@@ -93,13 +93,6 @@ Run the analysis notebooks to perform exploratory data analysis and modeling:
 - Open the delinquency risk assessment notebook: **jupyter notebook notebooks/delinquency_risk_assessment.ipynb**  
 - Open the machine learning predictions notebook: **jupyter notebook notebooks/Machine_Learning_Predictions.ipynb**
 
-## 📊 Dashboard Previews
-### Fraud Overview Dashboard
-![Fraud Dashboard](./reports/fraud_overview_dashboard.png)
-
-### Financial Dashboard
-![Financial Dashboard](./reports/credit_card_financial_dashboard.png)
-
 
 ## 📂 Repository Structure
 
