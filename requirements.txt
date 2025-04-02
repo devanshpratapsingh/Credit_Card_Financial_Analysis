@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+scikit-learn
+statsmodels
+openpyxl
+xlrd
+reportlab
+pdfplumber
+dash
+dash-bootstrap-components
