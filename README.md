@@ -23,10 +23,10 @@ Empower financial institutions with data-driven insights to:
 
 ## 📊 Dashboard Previews
 ### Fraud Overview Dashboard
-![Fraud Dashboard](https://github.com/devanshpratapsingh/credit-card-analytics/blob/main/data/fraud_overview_dashboard.png)
+![Fraud Dashboard](https://github.com/devanshpratapsingh/Credit_Card_Financial_Analysis/blob/main/data/fraud_overview_dashboard.png)
 
 ### Financial Dashboard
-![Financial Dashboard](https://github.com/devanshpratapsingh/credit-card-analytics/blob/main/data/credit_card_financial_dashboard.png)
+![Financial Dashboard](https://github.com/devanshpratapsingh/Credit_Card_Financial_Analysis/blob/main/data/credit_card_financial_dashboard.png)
 
 ## 🛠️ Technical Implementation
 
