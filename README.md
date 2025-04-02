@@ -71,7 +71,7 @@ graph LR
 *Higher utilization correlates with increased risk*
 
 ### CLV Prediction
-![CLV Model](./reports/clv_prediction_insights.png)
+![CLV Model](https://raw.githubusercontent.com/devanshpratapsingh/Credit_Card_Financial_Analysis/main/reports/clv_prediction_insights.png)
 *Actual vs Predicted Customer Lifetime Value*
 
 ## 3️⃣ Database Schema  
