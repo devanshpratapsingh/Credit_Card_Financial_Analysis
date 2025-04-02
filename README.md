@@ -22,11 +22,11 @@ Empower financial institutions with data-driven insights to:
 ✔ **Explainable AI**: SHAP values for model interpretability  
 
 ## 📊 Dashboard Previews
-### Fraud Overview Dashboard
-![Fraud Dashboard](https://raw.githubusercontent.com/devanshpratapsingh/Credit_Card_Financial_Analysis/main/data/fraud_overview_dashboard.png)
+### Credit Card Transaction Report Dashboard 
+![Fraud Dashboard](https://raw.githubusercontent.com/devanshpratapsingh/Credit_Card_Financial_Analysis/main/reports/CC_Transaction_Dashboard.png)
 
-### Financial Dashboard
-![Financial Dashboard](https://raw.githubusercontent.com/devanshpratapsingh/Credit_Card_Financial_Analysis/main/data/credit_card_financial_dashboard.png)
+### Credit Card Customer Report Dashboard
+![Financial Dashboard](https://raw.githubusercontent.com/devanshpratapsingh/Credit_Card_Financial_Analysis/main/reports/CC_Customer_Report_Dashboard.png)
 
 ## 🛠️ Technical Implementation
 
