@@ -37,7 +37,7 @@ graph LR
     B --> C[Python Preprocessing]
     C --> D[ML Modeling]
     D --> E[Power BI Visualization]
-
+```
 ## 2️⃣ Machine Learning Models  
 
 | Model             | Type           | Key Metrics                      | Business Use                  |
@@ -64,10 +64,76 @@ graph LR
 
 ---
 
-## 🚀 Getting Started  
+# 🚀 Getting Started
 
-### Prerequisites  
-```bash
-# Python packages
-pip install -r requirements.txt
+## Prerequisites
 
+Install the required Python packages by running the following command in your terminal:  
+**pip install -r requirements.txt**
+
+## Installation
+
+### Clone the repository:
+To get started, clone the repository to your local machine using the following steps:  
+- Run the command: **git clone https://github.com/yourusername/credit-card-analytics.git**  
+- Navigate to the project directory: **cd credit-card-analytics**
+
+### Configure database connection:
+Set up your database connection by creating a configuration file at `config/db_config.ini` with the following content:  
+- **Section**: [database]  
+- **Host**: your_db_host  
+- **Name**: credit_card_db  
+- **User**: your_username  
+- **Password**: your_password  
+
+### Execute the analysis pipeline:
+Run the analysis notebooks to perform exploratory data analysis and modeling:  
+- Open the first notebook: **jupyter notebook notebooks/1_eda_and_preprocessing.ipynb**  
+- Open the second notebook: **jupyter notebook notebooks/2_ml_modeling.ipynb**
+
+## 📂 Repository Structure
+
+The project is organized as follows:  
+- **data/**: Contains processed datasets  
+- **notebooks/**: Includes analysis notebooks  
+  - **1_eda_and_preprocessing.ipynb**: Notebook for exploratory data analysis and preprocessing  
+  - **2_ml_modeling.ipynb**: Notebook for machine learning modeling  
+- **sql/**: Stores SQL query library  
+- **powerbi/**: Contains dashboard files  
+- **plots/**: Stores generated visualizations  
+- **reports/**: Contains model outputs  
+- **config/**: Stores configuration files  
+- **requirements.txt**: Lists Python dependencies  
+- **README.md**: Project documentation
+
+## 📌 Key Findings
+
+### Card Type Insights:
+- **Premium cards** show **40% higher CLV** but **15% greater delinquency risk**  
+- **Blue cards** contribute **68% of total revenue**  
+
+### Behavioral Patterns:
+- **Fuel purchases** have **28% lower profitability**  
+- Customers with **>60% utilization** are **3x more likely to default**  
+
+### Segmentation Results:
+- **Cluster 2 (High Spenders)** generates **58% of revenue**  
+- **Cluster 0 (Low Utilizers)** has highest retention rate (**92%**)  
+
+## 🤝 Contribution Guidelines
+
+1. Fork the repository  
+2. Create your feature branch by running:  
+   **git checkout -b feature/your-feature**  
+3. Commit your changes with the following command:  
+   **git commit -m 'Add some feature'**  
+4. Push to the branch using:  
+   **git push origin feature/your-feature**  
+5. Open a Pull Request  
+
+## 📄 License
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+## 📧 Contact
+**Your Name** - [your.email@example.com](mailto:your.email@example.com)  
+Project Link: [GitHub Repository](https://github.com/yourusername/credit-card-analytics)
