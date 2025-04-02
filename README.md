@@ -28,6 +28,20 @@ Empower financial institutions with data-driven insights to:
 ### Credit Card Customer Report Dashboard
 ![Financial Dashboard](https://raw.githubusercontent.com/devanshpratapsingh/Credit_Card_Financial_Analysis/main/reports/CC_Customer_Report_Dashboard.png)
 
+## 🔍 Exploratory Analysis
+
+### Customer Segmentation
+![Spending Clusters](https://raw.githubusercontent.com/devanshpratapsingh/Credit_Card_Financial_Analysis/main/plots/Customer_Segmentation_by_Spending_Behavior.png)
+*K-Means clustering identified 3 distinct spending profiles*
+
+### Sales Trends
+![Monthly Sales](https://raw.githubusercontent.com/devanshpratapsingh/Credit_Card_Financial_Analysis/main/plots/monthly_sales_trends.png)
+*Seasonal spending patterns with holiday peaks*
+
+### Customer Demographics
+![Income Distribution](https://raw.githubusercontent.com/devanshpratapsingh/Credit_Card_Financial_Analysis/main/plots/Distribution_of_Customer_Income.png)
+*Target income ranges for premium card offers*
+
 ## 🛠️ Technical Implementation
 
 ### 1️⃣ Data Pipeline Architecture
@@ -46,6 +60,19 @@ graph LR
 | Gradient Boosting | Regression     | R²: 0.89 <br> RMSE: $142        | CLV estimation               |
 | K-Means         | Clustering      | Silhouette: 0.62                | Customer segmentation        |
 | SHAP            | Explainability  | Feature importance scores       | Model interpretability       |
+
+## 🛠️ Model Insights
+
+### Risk Prediction
+![Delinquency SHAP](https://raw.githubusercontent.com/devanshpratapsingh/Credit_Card_Financial_Analysis/main/reports/delinquency_risk_shap.png)
+*Key factors driving delinquency risk (SHAP values)*
+
+![Delinquency Rates](https://raw.githubusercontent.com/devanshpratapsingh/Credit_Card_Financial_Analysis/main/Delinquency_Rate_By_Utilization_Rate.png)
+*Higher utilization correlates with increased risk*
+
+### CLV Prediction
+![CLV Model](./reports/clv_prediction_insights.png)
+*Actual vs Predicted Customer Lifetime Value*
 
 ## 3️⃣ Database Schema  
 
@@ -75,16 +102,8 @@ Install the required Python packages by running the following command in your te
 
 ### Clone the repository:
 To get started, clone the repository to your local machine using the following steps:  
-- Run the command: **git clone https://github.com/devanshpratapsingh/credit-card-analytics.git**  
-- Navigate to the project directory: **cd credit-card-analytics**
-
-### Configure database connection:
-Set up your database connection by creating a configuration file at `config/db_config.ini` with the following content:  
-- **Section**: [database]  
-- **Host**: your_db_host  
-- **Name**: credit_card_db  
-- **User**: your_username  
-- **Password**: your_password  
+- Run the command: **git clone https://github.com/devanshpratapsingh/Credit_Card_Financial_Analysis.git**  
+- Navigate to the project directory: **cd Credit_Card_Financial_Analysis**
 
 ### Execute the analysis pipeline:
 Run the analysis notebooks to perform exploratory data analysis and modeling:  
@@ -126,7 +145,10 @@ The project is organized as follows:
   - **churn_prediction_insights.png**: Insights from churn prediction  
   - **clv_prediction_insights.png**: Insights from customer lifetime value prediction  
   - **delinquency_risk_distribution.png**: Distribution of delinquency risk  
-  - **delinquency_risk_shap.png**: SHAP analysis for delinquency risk  
+  - **delinquency_risk_shap.png**: SHAP analysis for delinquency risk
+ 
+## DB Relation
+![DB Relations](https://raw.githubusercontent.com/devanshpratapsingh/Credit_Card_Financial_Analysis/main/plots/DB_Relations.png)
 
 ## 📌 Key Findings
 
