@@ -67,7 +67,7 @@ graph LR
 ![Delinquency SHAP](https://raw.githubusercontent.com/devanshpratapsingh/Credit_Card_Financial_Analysis/main/reports/delinquency_risk_shap.png)
 *Key factors driving delinquency risk (SHAP values)*
 
-![Delinquency Rates](https://raw.githubusercontent.com/devanshpratapsingh/Credit_Card_Financial_Analysis/main/Delinquency_Rate_By_Utilization_Rate.png)
+![Delinquency Rates](https://raw.githubusercontent.com/devanshpratapsingh/Credit_Card_Financial_Analysis/main/reports/Delinquency_Rate_By_Utilization_Rate.png)
 *Higher utilization correlates with increased risk*
 
 ### CLV Prediction
