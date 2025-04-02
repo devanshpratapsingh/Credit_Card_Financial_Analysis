@@ -22,11 +22,11 @@ Empower financial institutions with data-driven insights to:
 ✔ **Explainable AI**: SHAP values for model interpretability  
 
 ## 📊 Dashboard Previews
-### Customer Analytics Dashboard
-![Customer Dashboard](https://github.com/yourusername/credit-card-analytics/blob/main/reports/CC_Customer_Report_Dashboard.png)
+### Fraud Overview Dashboard
+![Fraud Dashboard](https://github.com/devanshpratapsingh/credit-card-analytics/blob/main/data/fraud_overview_dashboard.png)
 
-### Transaction Insights Dashboard
-![Transaction Dashboard](https://github.com/yourusername/credit-card-analytics/blob/main/reports/CC_Transaction_Dashboard.png)
+### Financial Dashboard
+![Financial Dashboard](https://github.com/devanshpratapsingh/credit-card-analytics/blob/main/data/credit_card_financial_dashboard.png)
 
 ## 🛠️ Technical Implementation
 
@@ -75,7 +75,7 @@ Install the required Python packages by running the following command in your te
 
 ### Clone the repository:
 To get started, clone the repository to your local machine using the following steps:  
-- Run the command: **git clone https://github.com/yourusername/credit-card-analytics.git**  
+- Run the command: **git clone https://github.com/devanshpratapsingh/credit-card-analytics.git**  
 - Navigate to the project directory: **cd credit-card-analytics**
 
 ### Configure database connection:
@@ -88,23 +88,52 @@ Set up your database connection by creating a configuration file at `config/db_c
 
 ### Execute the analysis pipeline:
 Run the analysis notebooks to perform exploratory data analysis and modeling:  
-- Open the first notebook: **jupyter notebook notebooks/1_eda_and_preprocessing.ipynb**  
-- Open the second notebook: **jupyter notebook notebooks/2_ml_modeling.ipynb**
+- Open the data preprocessing notebook: **jupyter notebook notebooks/data_preprocessing.ipynb**  
+- Open the EDA notebook: **jupyter notebook notebooks/EDA.ipynb**  
+- Open the delinquency risk assessment notebook: **jupyter notebook notebooks/delinquency_risk_assessment.ipynb**  
+- Open the machine learning predictions notebook: **jupyter notebook notebooks/Machine_Learning_Predictions.ipynb**
+
+## 📊 Dashboard Previews
+
+### Fraud Overview Dashboard
+![Fraud Overview Dashboard](https://github.com/devanshpratapsingh/credit-card-analytics/blob/main/data/fraud_overview_dashboard.png)
+
+### Credit Card Financial Dashboard
+![Credit Card Financial Dashboard](https://github.com/devanshpratapsingh/credit-card-analytics/blob/main/data/credit_card_financial_dashboard.png)
 
 ## 📂 Repository Structure
 
 The project is organized as follows:  
-- **data/**: Contains processed datasets  
-- **notebooks/**: Includes analysis notebooks  
-  - **1_eda_and_preprocessing.ipynb**: Notebook for exploratory data analysis and preprocessing  
-  - **2_ml_modeling.ipynb**: Notebook for machine learning modeling  
-- **sql/**: Stores SQL query library  
-- **powerbi/**: Contains dashboard files  
-- **plots/**: Stores generated visualizations  
-- **reports/**: Contains model outputs  
-- **config/**: Stores configuration files  
+- **Credit Card Financial Weekly Dashboard Report.pdf**: Weekly dashboard report in PDF format  
+- **Credit_Card_Customer_Report.pdf**: Customer report in PDF format  
+- **README.md**: Project documentation  
 - **requirements.txt**: Lists Python dependencies  
-- **README.md**: Project documentation
+- **data/**: Contains raw and processed datasets  
+  - **processed/**: Directory for processed data  
+    - **processed.zip**: Zipped processed dataset  
+  - **raw/**: Directory for raw data  
+    - **raw.zip**: Zipped raw dataset  
+- **models/**: Stores machine learning models  
+  - **models.zip**: Zipped model files  
+- **notebooks/**: Includes analysis notebooks  
+  - **data_preprocessing.ipynb**: Notebook for data preprocessing  
+  - **delinquency_risk_assessment.ipynb**: Notebook for delinquency risk assessment  
+  - **EDA.ipynb**: Notebook for exploratory data analysis  
+  - **Machine_Learning_Predictions.ipynb**: Notebook for machine learning predictions  
+- **plots/**: Stores generated visualizations  
+  - **Correlation_Matrix_OF_Numerical_Features.png**: Correlation matrix of numerical features  
+  - **Customer_Segmentation_by_Spending_Behavior.png**: Customer segmentation by spending behavior  
+  - **Delinquency_Rate_By_Income.png**: Delinquency rate by income  
+  - **Delinquency_Rate_By_Utilization_Rate.png**: Delinquency rate by utilization rate  
+  - **Distribution_of_Customer_Age.png**: Distribution of customer age  
+  - **Distribution_of_Customer_Education_Level.png**: Distribution of customer education level  
+  - **Distribution_of_Customer_Income.png**: Distribution of customer income  
+  - **monthly_sales_trends.png**: Monthly sales trends  
+- **reports/**: Contains analysis reports and insights  
+  - **churn_prediction_insights.png**: Insights from churn prediction  
+  - **clv_prediction_insights.png**: Insights from customer lifetime value prediction  
+  - **delinquency_risk_distribution.png**: Distribution of delinquency risk  
+  - **delinquency_risk_shap.png**: SHAP analysis for delinquency risk  
 
 ## 📌 Key Findings
 
@@ -136,4 +165,5 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ## 📧 Contact
 **Your Name** - [your.email@example.com](mailto:your.email@example.com)  
+Project Link: [GitHub Repository](https://github.com/devanshpratapsingh/credit-card-analytics)mail@example.com](mailto:your.email@example.com)  
 Project Link: [GitHub Repository](https://github.com/yourusername/credit-card-analytics)
