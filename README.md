@@ -94,12 +94,12 @@ Run the analysis notebooks to perform exploratory data analysis and modeling:
 - Open the machine learning predictions notebook: **jupyter notebook notebooks/Machine_Learning_Predictions.ipynb**
 
 ## 📊 Dashboard Previews
-
 ### Fraud Overview Dashboard
-![Fraud Overview Dashboard](https://github.com/devanshpratapsingh/credit-card-analytics/blob/main/data/fraud_overview_dashboard.png)
+![Fraud Dashboard](./reports/fraud_overview_dashboard.png)
 
-### Credit Card Financial Dashboard
-![Credit Card Financial Dashboard](https://github.com/devanshpratapsingh/credit-card-analytics/blob/main/data/credit_card_financial_dashboard.png)
+### Financial Dashboard
+![Financial Dashboard](./reports/credit_card_financial_dashboard.png)
+
 
 ## 📂 Repository Structure
 
@@ -163,7 +163,3 @@ The project is organized as follows:
 ## 📄 License
 Distributed under the **MIT License**. See `LICENSE` for more information.
 
-## 📧 Contact
-**Your Name** - [your.email@example.com](mailto:your.email@example.com)  
-Project Link: [GitHub Repository](https://github.com/devanshpratapsingh/credit-card-analytics)mail@example.com](mailto:your.email@example.com)  
-Project Link: [GitHub Repository](https://github.com/yourusername/credit-card-analytics)
